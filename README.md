@@ -1,20 +1,23 @@
 # developer.github.com
 
-This is a GitHub API resource built with [Nanoc][nanoc].
+这是一个GitHub API资源建设[Nanoc][nanoc].
 
-All submissions are welcome. To submit a change, fork this repo, commit your changes, and send us a [pull request](http://help.github.com/send-pull-requests/).
+欢迎所有意见书。要提交一个改变，叉子这个正回购，提交你的修改，并发送给我们 [pull request](http://help.github.com/send-pull-requests/).
 
-## Setup
+## 建立
+zh-cn: Ruby 2.2 是需要建立的网站。
+en   : Ruby 2.2 is required to build the site.
 
-Ruby 2.2 is required to build the site.
 
-Get the Nanoc gem, plus kramdown for Markdown parsing:
+zh-cn:   Get得到的Nanoc gem，加kramdown 到Markdown解析：
+
+en   :   Get the Nanoc gem, plus kramdown for Markdown parsing:
 
 ```sh
 $ bundle install
 ```
 
-You can see the available commands with Nanoc:
+你可以看到可用的命令与纳米：
 
 ```sh
 $ bundle exec nanoc -h
@@ -24,10 +27,13 @@ Nanoc has [some nice documentation](http://nanoc.ws/docs/tutorial/) to get you s
 
 [nanoc]: http://nanoc.ws/
 
-## Styleguide
+## 风格指南 Styleguide
 
-Not sure how to structure the docs?  Here's what the structure of the
-API docs should look like:
+不知道如何组织文档？以下是的结构(Not sure how to structure the docs?  Here's what the structure of the)
+API文档应该是这样的：(API docs should look like:)
+
+
+
 
     # API title
 
